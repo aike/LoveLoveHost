@@ -1,0 +1,15 @@
+
+# Appended to the generated eg-amp.lv2/manifest.ttl by examples/CMakeLists.txt.
+# Declares the lovehost test UI (a Win32 trackbar) for the eg-amp example plugin.
+
+<http://lv2plug.in/plugins/eg-amp>
+    <http://lv2plug.in/ns/extensions/ui#ui> <http://lovehost.example/plugins/eg-amp-ui> .
+
+<http://lovehost.example/plugins/eg-amp-ui>
+    a <http://lv2plug.in/ns/extensions/ui#WindowsUI> ;
+    <http://lv2plug.in/ns/extensions/ui#binary> <amp_ui.dll> ;
+    <http://lv2plug.in/ns/lv2core#requiredFeature> <http://lv2plug.in/ns/extensions/ui#parent> ,
+                                                   <http://lv2plug.in/ns/ext/urid#map> ;
+    <http://lv2plug.in/ns/lv2core#optionalFeature> <http://lv2plug.in/ns/extensions/ui#resize> ,
+                                                   <http://lv2plug.in/ns/ext/log#log> ;
+    <http://lv2plug.in/ns/lv2core#extensionData> <http://lv2plug.in/ns/extensions/ui#idleInterface> .

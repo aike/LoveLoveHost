@@ -1,0 +1,13 @@
+{
+  "name": "lovehost",
+  "version": "0.1.0",
+  "description": "Standalone single-plugin LV2 host for Windows with ASIO support",
+  "dependencies": [
+    "lilv",
+    "lv2",
+    { "name": "rtaudio", "features": ["asio"] },
+    "rtmidi",
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "5f96cd15fd745122cf27e0524606d6c1efc5fd07"
+}

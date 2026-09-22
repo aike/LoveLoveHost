@@ -82,4 +82,6 @@ examples/               LV2 公式サンプル(eg-amp/eg-midigate/eg-fifths/eg-p
                         eg-amp 用テスト UI(amp-ui)
 ```
 
-内部名(CMake ターゲット、ソースファイル名、クラス名、ウィンドウクラス名)は `lovehost` のままです。
+## ライセンス
+
+MIT
